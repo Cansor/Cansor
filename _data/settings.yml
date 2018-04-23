@@ -1,0 +1,30 @@
+# Change to true for Disqus comments
+disqus:
+  comments: false
+  disqus_shortname: 'https-lenpaul-github-io-lagrange'
+
+google-ID: 'UA-112060364-1'
+
+menu:
+- {name: '归档', path: 'menu', url: 'writing.html'}
+- {name: '关于', path: 'menu', url: 'about.html'}
+- {name: '联系', path: 'menu', url: 'contact.html'}
+
+# Available social icons are powered by Font Awesome, so you can use any icon that they offer
+social:
+- {icon: 'github', link: 'https://www.github.com/'}
+- {icon: 'facebook', link: 'https://www.facebook.com/profile.php?id=100022933771248'}
+- {icon: 'envelope', link: 'mailto:508948344@qq.com'}
+- {icon: 'qq', link: 'http://wpa.qq.com/msgrd?v=3&uin=1378552181'}
+# - {icon: 'rss-square', link: '/rss-feed.xml'}
+
+# Customize site text
+pagination:
+  next_page: 'Newer'
+  previous_page: 'Older'
+
+sharing_button_prompt: 'Feel free to share!'
+
+related_posts: '你可能喜欢：'
+
+post_date_prefix: 'Written on'
