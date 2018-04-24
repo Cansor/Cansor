@@ -173,7 +173,7 @@ hr {
 }
 
 .posts {
-  margin-bottom: 5rem;
+  margin-bottom: 1.5rem;
   padding: 15px;
   list-style: none;
   /*
@@ -181,8 +181,8 @@ hr {
   */
   width: 100%;
   max-width: 100%;
-  margin-bottom: 3rem;
-  /*display: -webkit-box;
+  /*margin-bottom: 1.5rem;
+  display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;*/
