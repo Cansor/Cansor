@@ -11,13 +11,6 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.Scanner;
 
-/**
- * 实现文件的复制操作
- * @author Candy Sorcerer
- * @version: 1.1	优化代码逻辑，增加缓冲流
- *
- */
-
 public class CopyFileDemo {
 
 	public static void main(String[] args) {
@@ -33,6 +26,7 @@ public class CopyFileDemo {
 /**
  * 
  * 复制文件类
+ * @version: 1.2	修复副本的排序BUG.
  *
  */
 class CopyFile{
@@ -41,9 +35,9 @@ class CopyFile{
 		Scanner input = new Scanner(System.in);
 		System.out.println("要复制的文件：  （输入完整路径，如 D:\\java.txt）");
 		String path1 = input.nextLine();
-		File file1 = new File(path1);	//输入流对象
+		File file1 = new File(path1);
 		
-		//如果文件不存在则重新输入
+		//判断文件是否存在或者是否是文件
 		if(!file1.exists() || !file1.isFile()) {
 			System.out.println("文件不存在！\n");
 			copy();
@@ -83,15 +77,13 @@ class CopyFile{
 			}
 		}
 		
-		//输入流
 		InputStream fis = new FileInputStream(file1);	//读取源文件
-		int size = 1024*128;	//定义缓冲区大小
+		int size = 1024*128;	//定义缓冲大小
 		BufferedInputStream bis = new BufferedInputStream(fis,size);	//输入缓冲流
 			
-		//输出流
-		OutputStream out = new FileOutputStream(file2, flag);	//输出到目标文件
+		//输出文件
+		OutputStream out = new FileOutputStream(file2, flag);
 		BufferedOutputStream bos = new BufferedOutputStream(out,size);	//输出缓冲流
-		
 		System.out.println("\r\n"+path2+file2.getName());
 		System.out.println("正在复制......");
 
@@ -113,16 +105,22 @@ class CopyFile{
 		String name = file.getName();	//获取文件名
 		StringBuilder sb = new StringBuilder(name);
 		int i = name.lastIndexOf(".");	//获取后缀名的索引位置
-		sb.insert(i,"-副本("+x+")");	//在后缀名前加上“副本”
+		sb.insert(i,"-副本"+"("+x+")");	//在后缀名前加上“副本”
 		file = new File(path + sb.toString());	//创建副本文件
 		name = path + file.getName();	//将原文件名更改为副本的文件名
 		
+		int a = 2;//索引的偏移量
+		int b = 10;
 		//如果副本已存在，则创建新副本
 		while(file.exists()) {
 			x++;	//副本序号+1
 			i = name.lastIndexOf(".");
 			sb = new StringBuilder(name);
-			sb.replace(i-2, i-1, ""+x);	//替换副本序号
+			if(x>b) {
+				b++;
+				b *= 10;
+			}
+			sb.replace(i-a, i-(a-1), ""+x);	//替换副本序号
 			file = new File(sb.toString());
 			name = path + file.getName();	//将原文件名更改为新副本的文件名
 		}
