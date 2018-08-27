@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "关于文本编码的问题"
-author: "Candy Sorcerer"
+author: "Cansor"
 categories: help
 tags: [help]
 image:
