@@ -2,7 +2,7 @@ import java.util.Scanner;
 /**
 	猜数游戏
 
-	@author: CandySorcerer
+	@author: Cansor
 	@version: 1.2
 */
 public class GuessNumber

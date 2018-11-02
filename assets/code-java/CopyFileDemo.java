@@ -86,7 +86,7 @@ class CopyFile{
 		}
 		
 		InputStream fis = new FileInputStream(file);//输入流，读取源文件
-		int size = 1024*128;	//定义缓冲大小
+		int size = 1024*64;	//定义缓冲大小
 		BufferedInputStream bis = new BufferedInputStream(fis,size);	//输入缓冲流
 			
 		//输出文件

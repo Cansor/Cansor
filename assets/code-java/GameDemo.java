@@ -3,7 +3,7 @@ import java.util.*;
 	石头剪刀布小游戏，玩法有三局两胜制和积分制
 
 	@version: 1.1
-	@author: CandySorcerer
+	@author: Cansor
 */
 public class GameDemo
 {

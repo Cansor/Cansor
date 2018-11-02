@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "小游戏-追踪之翼"
+title: "[JavaSE] 飞机大战小游戏-追踪之翼"
 author: "Cansor"
 categories: JavaDemo
 tags: [游戏,demo]
@@ -19,11 +19,10 @@ image: https://i.loli.net/2018/08/27/5b837d03a16be.jpg
 
 至于源码，写得很乱，连重构的欲望都没有了，所以就不放出来了……
 
+平台：JavaSE</br>
 操作说明：<br>
-z、键开火（主菜单为确认）
-
-x、键返回（实际上这个键可有可无）
-
+z 键开火（主菜单为确认）<br>
+x 键返回（实际上这个键可有可无）<br>
 方向键移动
 
 然后……通关后可以再查看一下帮助。
@@ -37,7 +36,5 @@ x、键返回（实际上这个键可有可无）
 
 密码：5oka
 
-<br>
-version: beta 1.0
 <br><br><br>
 
