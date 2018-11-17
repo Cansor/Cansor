@@ -21,7 +21,7 @@ plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-t
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:		           'Spell Book'
-description:	       'of the Sorcerer'
+description:	       ''
 author:              'Cansor'
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
