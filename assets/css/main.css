@@ -38,7 +38,7 @@ h1{
   font-size: 2rem;
 }
 
-h1 a {
+h1 a, .line-color {
   text-decoration: none;
 }
 
@@ -48,16 +48,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*
-  自定义链接颜色 line
+  自定义链接颜色
 */
-line a {
+.line-color {
   color: #33cc66;
   border-bottom: none;
 }
-line a:hover {
+.line-color:hover {
   color: blue;
   border-bottom: none;
 }
+
 ul a {
   text-decoration: none;
 }

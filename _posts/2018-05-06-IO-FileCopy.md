@@ -60,9 +60,8 @@ private File copys(File file,String path) {
 ```
 <br><br>
 ### 源码
-<line>
-<a href="{{ site.github.url }}/assets/code-java/CopyFileDemo.java">CopyFileDemo.java</a>
-</line>
+
+<a href="{{ site.github.url }}/assets/code-java/CopyFileDemo.java" class="line-color">CopyFileDemo.java</a>
 
 提示：使用 右键—另存为 的方式下载。
 

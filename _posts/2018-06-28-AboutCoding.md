@@ -33,9 +33,7 @@ image:
 
 至于 EditPlus 的下载，通过搜索引擎搜索就能找到，这里放出官方地址：
 
-<line>
-<a href="https://www.editplus.com/" target="_blank">https://www.editplus.com/</a>
-</line>
+<a href="https://www.editplus.com/" target="_blank" class="line-color">https://www.editplus.com/</a>
 
 有什么问题可以点击页面上方的 Contact 联系。
 

@@ -10,7 +10,7 @@ image:
 <br>
 一款飞行射击类的小游戏。
 <br>
-  
+
 ***
 
 ### 说明
@@ -50,9 +50,8 @@ KE模拟器（KEmulator v1.05）无法停止mp3格式的BGM……
 <br><br>
 ### 下载
 
-<line>
-<a href="https://pan.baidu.com/s/1m2k7TPBaPAxFjVfWupdZXw" target="_blank">网盘下载</a>
-</line>
+
+<a href="https://pan.baidu.com/s/1m2k7TPBaPAxFjVfWupdZXw" target="_blank" class="line-color">网盘下载</a>
 
 提取码: i3s5
 

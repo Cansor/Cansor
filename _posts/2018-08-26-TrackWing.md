@@ -30,9 +30,8 @@ x 键返回（实际上这个键可有可无）
 
 ### 下载
 
-<line>
-<a href="https://www.lanzous.com/b353671/" target="_blank">网盘下载</a>
-</line>
+<a href="https://www.lanzous.com/b353671/" target="_blank" class="line-color">网盘下载</a>
+
 
 密码：5oka
 
