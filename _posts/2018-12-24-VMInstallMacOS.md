@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "使用VM虚拟机安装MacOS系统"
+title: "使用VMware安装MacOS系统"
 author: "Cansor"
 categories: test-course
 tags: [教程]
@@ -26,13 +26,13 @@ MacOS Unlocker for VMware：<a href="https://github.com/DrDonk/unlocker" target=
 
 Mac OS 系统镜像：<a href="https://pan.baidu.com/s/1teSR1320fXhaLn5cdUwc6Q" target="_blank" class="line-color" title="Mac OS下载">https://pan.baidu.com/s/1teSR1320fXhaLn5cdUwc6Q</a>  
 提取码: tgsc  
-注意虚拟机不支持dmg镜像，请下载iso或者cdr镜像。
+注意VMware不支持dmg镜像，请下载iso或者cdr镜像。
 
 ## 配置虚拟机
 
-安装好VM虚拟机后，这个时候的VM虚拟机还没有 Apple Mac OS X 的选项，需要先对VM虚拟机进行破解才行。
+安装好VMware后，这个时候的VMware还没有 Apple Mac OS X 的选项，需要先对VMware进行破解才行。
 
-先退出VM虚拟机，右键Windows任务栏，启动任务管理器，把VM虚拟机的进程全部关闭（带有vmwar的就是），然后打开服务（开始菜单中搜索“服务”），如图把VMware的五项服务全部停止。
+先退出VMware，右键Windows任务栏，启动任务管理器，把VMware的进程全部关闭（带有vmwar的就是），然后打开服务（开始菜单中搜索“服务”），如图把VMware的五项服务全部停止。
 
 ![icon](https://i.loli.net/2018/12/24/5c205a7d0345b.png)
 
@@ -42,7 +42,7 @@ Mac OS 系统镜像：<a href="https://pan.baidu.com/s/1teSR1320fXhaLn5cdUwc6Q" 
 ![icon](https://i.loli.net/2018/12/24/5c205d518c9ba.png)
 
 <br/>
-这个时候打开VM虚拟机，点击“文件——新建虚拟机”，选择典型的方式创建，点下一步，选择光盘镜像文件安装（目录最好不要有中文），这个时候会出现无法检测的情况，不要管它，直接点下一步。
+这个时候打开VMware，点击“文件——新建虚拟机”，选择典型的方式创建，点下一步，选择光盘镜像文件安装（目录最好不要有中文），这个时候会出现无法检测的情况，不要管它，直接点下一步。
 
 ![icon](https://i.loli.net/2018/12/24/5c20623d354c6.png)
 
@@ -91,7 +91,7 @@ Mac OS 系统镜像：<a href="https://pan.baidu.com/s/1teSR1320fXhaLn5cdUwc6Q" 
 ![icon](https://i.loli.net/2018/12/24/5c2074efb1df6.png)
 
 <br/>
-然后选择 VMware...的那个磁盘，点击抹掉，弹出一个窗口，名称可以自己命名，然后再次点击抹掉。
+然后选择 VMware... 的那个磁盘，点击抹掉，弹出一个窗口，名称可以自己命名，然后再次点击抹掉。
 
 ![icon](https://i.loli.net/2018/12/24/5c20757a885b3.png)
 

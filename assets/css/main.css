@@ -47,17 +47,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #333;
 }
 
-/*
-  自定义链接颜色
-*/
-.line-color {
-  color: #33cc66;
-  border-bottom: none;
-}
-.line-color:hover {
-  color: blue;
-  border-bottom: none;
-}
+
 
 ul a {
   text-decoration: none;
@@ -66,26 +56,12 @@ ul a {
 a {
   text-decoration: underline;
   color: #333;
-  /*
-	链接定制
-  */
-  display: inline-block;
-  color: #515151;
-  -webkit-transition: -webkit-transform .2s;
-  transition: -webkit-transform .2s;
-  -o-transition: transform .2s;
-  transition: transform .2s;
-  transition: transform .2s, -webkit-transform .2s;
+  
 }
 
 a:hover {
   color: black;
-  /*
-	链接滑动特效
-  */
-  -webkit-transform: translateX(5px);
-      -ms-transform: translateX(5px);
-          transform: translateX(5px);
+  
 }
 
 img {
@@ -177,44 +153,8 @@ hr {
   margin-bottom: 1.5rem;
   padding: 15px;
   list-style: none;
-  /*
-	文章列表按钮样式
-  */
-  width: 100%;
-  max-width: 100%;
-  /*margin-bottom: 1.5rem;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;*/
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: stretch;
-  -webkit-align-items: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
-  min-height: 11rem;
-  -webkit-border-radius: 10px;
-          border-radius: 10px;
-  overflow: hidden;
-  -webkit-transition: all .3s ease;
-  -o-transition: all .3s ease;
-  transition: all .3s ease;
-  -webkit-box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
-          box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
-  color: #263959;
 }
 
-.posts:hover {
-  -webkit-transform: translate(0px, -2px);
-      -ms-transform: translate(0px, -2px);
-          transform: translate(0px, -2px);
-  -webkit-box-shadow: 0 15px 45px -10px rgba(10, 16, 34, 0.2);
-          box-shadow: 0 15px 45px -10px rgba(10, 16, 34, 0.2);
-}
 
 .post-date {
   display: block;
@@ -568,11 +508,4 @@ th, td {
 	color: #ff6600;
 }
 
-/*
-	立体字体效果
-*/
-.3d-font{
-color: #fafafa;
-letter-spacing: 0;
-text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
-}
+
