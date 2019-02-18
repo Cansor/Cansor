@@ -21,9 +21,7 @@ emmmm...... 你可以把这里看成是一个博客，主要记录着我在学�
 <br>
 ### 代码打开出现乱码？
 
-这里的代码一般采用 UTF-8 或者 GBK 编码，如果出现乱码等问题，请换一种编码打开。
-
-<!-- 请查看<a href="{{ site.github.url }}/help/AboutCoding.html" target="_blank" class="line-color">关于文本编码的问题</a> -->
+这里的代码一般采用 UTF-8 或者 GBK 编码，如果出现乱码等问题，<!--请换一种编码打开。-->请查看<a href="{{ site.github.url }}/help/AboutCoding.html" target="_blank" class="line-color">关于文本编码的问题</a>
  
 <br><br><br><br>
 

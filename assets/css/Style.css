@@ -76,6 +76,18 @@ a:hover {
           box-shadow: 0 15px 45px -10px rgba(10, 16, 34, 0.2);
 }
 
+/*鼠标悬停图片放大动画效果*/
+img{
+transition: max-width 2s;
+-moz-transition: max-width 2s;
+-webkit-transition: max-width 2s;
+-o-transition: max-width 2s;
+}
+.max-img img:hover{
+	max-width:130%;
+	/*transform: translateX(-15px);*/
+}
+
 /*淡出效果*/
 @keyframes fade-in {  
     0% {opacity: 0;}/*初始状态 透明度为0*/  
@@ -92,7 +104,15 @@ a:hover {
 }  
 @-webkit-keyframes fade-in {/*针对webkit内核*/  
     0% {opacity: 0;}  
-    40% {opacity: 0;}  
+    10% {opacity: 0.1;}
+    20% {opacity: 0.2;}
+    30% {opacity: 0.3;}
+    40% {opacity: 0.4;} 
+    50% {opacity: 0.5;} 
+    60% {opacity: 0.6;} 
+    70% {opacity: 0.7;} 
+    80% {opacity: 0.8;} 
+    90% {opacity: 0.9;}  
     100% {opacity: 1;}  
 }  
 body {
@@ -100,3 +120,15 @@ body {
     animation-duration: 0.7s;/*动画持续时间*/  
     -webkit-animation:fade-in 0.7s;/*针对webkit内核*/  
 } 
+
+/*背景特效*/
+#particles-js {
+	width: 100%;
+	height: 100%;
+	background-color: #FFF;
+	background-image: url('');
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	border: 1px solid red;
+}
