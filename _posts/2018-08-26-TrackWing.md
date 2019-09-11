@@ -26,12 +26,13 @@ x 键返回（实际上这个键可有可无）
 方向键移动
 
 然后……通关后可以再查看一下帮助。
+
+PS: 后来做了个J2ME的版本，比这个版本要完善一些，感兴趣的<a href="{{ site.github.url }}/javademo/J2ME_TrackWing.html" target="_blank">点击这里了解JavaME版</a>
 <br><br>
 
 ### 下载
 
 <a href="https://www.lanzous.com/b353671/" target="_blank" class="line-color">网盘下载</a>
-
 
 密码：5oka
 
