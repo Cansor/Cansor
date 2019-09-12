@@ -10,7 +10,7 @@ image: https://i.loli.net/2018/08/27/5b837d03a16be.jpg
 <br>
 一款飞行射击类的小游戏。
 <br>
-  
+
 ***
 
 ### 说明
@@ -22,12 +22,12 @@ image: https://i.loli.net/2018/08/27/5b837d03a16be.jpg
 平台：JavaSE  
 操作说明：  
 z 键开火（主菜单为确认）  
-x 键返回（实际上这个键可有可无）  
+x 键返回  
 方向键移动
 
 然后……通关后可以再查看一下帮助。
 
-PS: 后来做了个J2ME的版本，比这个版本要完善一些，感兴趣的<a href="{{ site.github.url }}/javademo/J2ME_TrackWing.html" target="_blank">点击这里了解JavaME版</a>
+PS: 后来做了个J2ME的版本，比这个版本要完善一些，<a href="{{ site.github.url }}/javademo/J2ME_TrackWing.html" target="_blank">点击这里了解JavaME版</a>
 <br><br>
 
 ### 下载
