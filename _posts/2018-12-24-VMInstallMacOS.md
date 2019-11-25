@@ -20,7 +20,7 @@ image: https://i.loli.net/2018/12/24/5c20772508aa6.png
 以下工具也可以自己从网上下载，这里提供一些：
 
 VMware虚拟机：<a href="https://pan.baidu.com/s/1LeA0bO7L7KI7EykX-Yb-_g" target="_blank" class="line-color" title="VM虚拟机下载">https://pan.baidu.com/s/1LeA0bO7L7KI7EykX-Yb-_g</a>  
-虚拟机激活密钥自己网上找，这里提供的是官方版本。
+密钥：<span class="hide">CG392-4PX5J-H816Z-HYZNG-PQRG2</span>
 
 MacOS Unlocker for VMware：<a href="https://github.com/DrDonk/unlocker" target="_blank" class="line-color" title="解锁器下载">https://github.com/DrDonk/unlocker</a>
 
@@ -32,7 +32,7 @@ Mac OS 系统镜像：<a href="https://pan.baidu.com/s/1teSR1320fXhaLn5cdUwc6Q" 
 
 安装好VMware后，这个时候的VMware还没有 Apple Mac OS X 的选项，需要先对VMware进行破解才行。
 
-先退出VMware，右键Windows任务栏，启动任务管理器，把VMware的进程全部关闭（带有vmwar的就是），然后打开服务（开始菜单中搜索“服务”），如图把VMware的五项服务全部停止。
+先退出VMware，然后打开服务（开始菜单中搜索“服务”），如图把VMware的五项服务全部停止。
 
 ![icon](https://i.loli.net/2018/12/24/5c205a7d0345b.png)
 
@@ -103,7 +103,7 @@ Mac OS 系统镜像：<a href="https://pan.baidu.com/s/1teSR1320fXhaLn5cdUwc6Q" 
 <br/>
 由于前面把VMwaer的5项服务给关了，所以这个时候是没网的，设置网络的时候直接跳过就好，等以后再设置。
 
-至此，Mac OS 操作系统安装完成，这个时候可以把VMwaer的5项服务给打开了。
+至此，Mac OS 操作系统安装完成，这个时候可以把VMwaer的5项服务给打开了（其实在破解完VMware后就可以打开了）。
 
 <br/><br/>
 
