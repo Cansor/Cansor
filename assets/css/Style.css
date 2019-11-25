@@ -20,7 +20,7 @@ text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #
 .hide {
 	background-color: #000000;
 }
-.del:hover {
+.hide:hover {
 	background-color: #FFFFFF;
 	transition: color .3s;
 		-moz-transition: color .3;
