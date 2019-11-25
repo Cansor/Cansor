@@ -20,7 +20,7 @@ image: https://i.loli.net/2018/12/24/5c20772508aa6.png
 以下工具也可以自己从网上下载，这里提供一些：
 
 VMware虚拟机：<a href="https://pan.baidu.com/s/1LeA0bO7L7KI7EykX-Yb-_g" target="_blank" class="line-color" title="VM虚拟机下载">https://pan.baidu.com/s/1LeA0bO7L7KI7EykX-Yb-_g</a>  
-密钥：<span class="hide">CG392-4PX5J-H816Z-HYZNG-PQRG2</span>
+密钥：<span class="hide" title="你知道得太多了">CG392-4PX5J-H816Z-HYZNG-PQRG2</span>
 
 MacOS Unlocker for VMware：<a href="https://github.com/DrDonk/unlocker" target="_blank" class="line-color" title="解锁器下载">https://github.com/DrDonk/unlocker</a>
 
