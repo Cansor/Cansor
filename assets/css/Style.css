@@ -16,6 +16,16 @@ text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #
 .del:hover {
 	color: #003;
 }
+/* 隐藏文字 */
+.hide {
+	background-color: #000000;
+}
+.del:hover {
+	background-color: #FFFFFF;
+	transition: color .3s;
+		-moz-transition: color .3;
+		-webkit-transition: color .3;
+}
 /*
   自定义链接颜色
 */
