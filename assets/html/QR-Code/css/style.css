@@ -1,0 +1,133 @@
+#main {
+	position: relative;
+	top: 20px;
+	width: 1150px;
+	margin: 0 auto 40px auto;
+	padding: 30px 15px 30px 15px;
+	box-shadow: 0 15px 45px -10px rgba(10, 16, 34, 0.2);
+}
+
+#qrcode {
+	padding: 5px;
+	width: 400px;
+	height: 400px;
+	position: relative;
+	overflow: hidden;
+	border: 1px solid green;
+}
+#qrcode>img {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+#qrcode>canvas {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+#qrcode>table {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#mianban {
+	float: right;
+	max-width: 510px;
+	margin: 0 auto;
+	padding: 25px;
+	border: 2px solid #66CCFF;
+	border-radius: 6px;
+		-webkit-border-radius: 6px;
+		-moz-border-radius: 6px;
+}
+
+#in {
+	margin-top: 5px;
+}
+.parameter {
+	width: 100%;
+	float: left;
+	margin: 15px 0 0 0;
+}
+
+#input-text {
+	width: 95%;
+	height: 100px;
+	resize: none;
+}
+
+input, #input-text {
+	color: #444;
+	padding: 5px;
+	font-size: 14px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+	outline: none;
+}
+input:hover, #input-text:hover {
+	border-color:#66CCFF;
+}
+input:focus, #input-text:focus {
+	border-color:#20a0ff;
+}
+
+#info {
+	font-size: 14px;
+	color: #42587e;
+	width: 264px;
+	float: left;
+}
+#info1,#info2,#info3,#info4 {
+	margin-bottom: 10px;
+	padding: 7px;
+	border: 2px solid #66CCFF;
+	border-radius: 6px;
+		-webkit-border-radius: 6px;
+		-moz-border-radius: 6px;
+}
+
+#load {
+	float: left;
+	width: 890px;
+}
+#select {
+	width: 200px;
+	float: right;
+}
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+	color: #333;
+	display: block;
+	text-align: center;
+	padding: 10px;
+	transition: background-color .3s;
+		-moz-transition: background-color .3;
+		-webkit-transition: background-color .3;
+}
+li:hover {
+	background-color: #79DFFF;
+	color: white;
+	cursor: pointer;
+}
+.act {
+	color: white;
+	background-color: #66CCFF;
+}
+
+#tit {
+	font-weight: bold;
+	font-size: 22px;
+	display: block;
+	text-align: center;
+	margin-bottom: 10px;
+}

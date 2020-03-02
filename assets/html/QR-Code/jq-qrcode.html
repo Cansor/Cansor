@@ -1,0 +1,52 @@
+<div id="info">
+	<div id="info1">
+		页面仅显示400大小（即400x400像素）的二维码图像，超出部分将被隐藏；但您仍可以使用鼠标右键将图片保存到本地（Canvas）。<br />
+	</div>
+	<div id="info2">
+		纠错等级指容错率的大小，即二维码能被正常扫描时允许被遮挡的最大面积占总面积的比率。<br />
+		以下为各纠错等级可编码字符数（英文字母/数字）：<br />
+		L ≈ 2950<br />
+		M ≈ 2328<br />
+		Q ≈ 1660<br />
+		H ≈ 1270<br />
+		注意字数过多同样会导致无法编码或难以被扫码软件识别。<br />
+	</div>
+	<div id="info3">
+		URL-Encode用于解决URL存在中文等字符时的乱码问题。
+	</div>
+	<div id="info4">
+		通常使用Canvas渲染性能更好，而且也可以直接将二维码图片保存到本地；Table为兼容方案，并且不支持自定义二维码图标。<br />
+	</div>
+</div>
+<div id="mianban">
+	<div id="qrcode"></div>
+	<div id="in">
+		<div class="parameter">大小：<input type="number" value="256" max="16384" id="wh" class="keyin ckin" /> </div>
+		<div class="parameter">背景色：<input type="text" value="#FFFFFF" id="colorLight" class="keyin" /> </div>
+		<div class="parameter">前景色：<input type="text" value="#000000" id="colorDark" class="keyin" /> </div>
+		<div class="parameter">纠错等级：
+			<!-- L:1,M:0,Q:3,H:2 -->
+			<input type="radio" name="correctLevel" value="1" />L (7%)
+			<input type="radio" name="correctLevel" value="0" checked="checked" />M (15%)
+			<input type="radio" name="correctLevel" value="3" />Q (25%)
+			<input type="radio" name="correctLevel" value="2" />H (30%)
+		</div>
+		<div class="parameter">URL-Encode:
+			<input type="radio" name="urlencode" value="true" checked="checked" />是
+			<input type="radio" name="urlencode" value="false" />否
+		</div>
+		<div class="parameter">渲染方式：
+			<input type="radio" name="render" value="canvas" checked="checked" />Canvas
+			<input type="radio" name="render" value="table" />Table
+		</div>
+		<div class="parameter">图标地址：<input type="text" placeholder="图标的网络地址" value="img/tj.png" id="imgsrc" class="keyin" /> </div>
+		<div class="parameter">图标大小：<input type="number" id="imgsize" value="75" class="keyin ckin" /> </div>
+		
+		<div class="parameter" id="input-div">
+			<textarea placeholder="输入二维码信息" id="input-text"  class="keyin"></textarea>
+		</div>
+		<div style="clear: both;"></div>
+	</div>
+</div>
+<script src="js/jquery.qrcode.min.js"></script>
+<script src="js/jq.qrcode.script.js"></script>
