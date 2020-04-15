@@ -24,8 +24,6 @@ SpringMVC的MultipartHttpServletRequest，通过对HttpServletRequest接口进�
 
 这里要注意的是，form表单的标签上必须写上 enctype=&quot;multipart/form-data&quot;，且提交方式为post。
 
-
-
 那么后端怎么接收呢，像这样：
 
 ```java
@@ -77,7 +75,8 @@ bis.close();
 </form>
 ```
 <br/>
-别忘了，MultipartHttpServletRequest是对HttpServletRequest接口的扩展，也就是继承了HttpServletRequest，而HttpServletRequest又基础了ServletRequest，所以我们可以使用ServletRequest的getParameterMap()方法来获取表单里的所有参数，返回类型是一个Map&lt;String, String[]&gt;类型的集合；  
+
+我们知道，MultipartHttpServletRequest是对HttpServletRequest接口的扩展，也就是继承了HttpServletRequest，所以我们可以使用getParameterMap()方法来获取表单里的所有参数，返回类型是一个Map&lt;String, String[]&gt;类型的集合；  
 key就是前端的name属性的值，value就是对应的值了。
 
 ```java
@@ -85,13 +84,14 @@ Map<String, String[]> parameterMap = multipartRequest.getParameterMap();
 ```
 <br/>
 通过操作map集合，就可以拿到前端传过来的所有的普通表单内容了。
+
 <br/>
----
+<hr/>
 <br/>
-***如果前端使用ajax的话，可以使用FormDate来上传：
+如果前端使用ajax的话，可以使用FormDate来上传：
 
 ```html
-<form enctype="multipart/form-data">
+<form enctype="multipart/form-data" class="myForm" >
     <input type="file" name="file_1" />
     姓名：<input type="text" name="name" />
     年龄：<input type="number" name="age" />
@@ -99,12 +99,12 @@ Map<String, String[]> parameterMap = multipartRequest.getParameterMap();
 </form>
 
 <script>
-    var form = document.getElementsByClassName('hoForm');
+    var form = document.getElementsByClassName('myForm');
     var formdata = new FormData(form[0]);
     
     $('.save').click(function(){
         $.ajax({
-            url: url,
+            url: "/upload",
             type: "POST",
             data: formdata,
             cache: false,
@@ -118,7 +118,7 @@ Map<String, String[]> parameterMap = multipartRequest.getParameterMap();
 ```
 <br/>
 <hr/>
-<br/><br/>
+<br/>
 
 ## MultipartHttpServletRequest常用API
 
@@ -126,7 +126,7 @@ Map<String, String[]> parameterMap = multipartRequest.getParameterMap();
 Iterator<String> getFileNames();
 ```
 获得文件名，返回的是一个迭代器，通过遍历可以获得上传的文件的所有文件名。  
-但要注意，该方法获取的其实是前端name属性的值，并不是真正的文件名。
+但要注意，该方法获取的其实是前端name属性的值，并不是文件的原文件名。
 
 
 
@@ -135,10 +135,13 @@ MultipartFile getFile(String name);
 ```
 获取文件，返回的是一个MultipartFile对象，该对象包含了文件的一些信息，如文件名（真·文件名）、大小等等。
 
+
+
 ```java
 List<MultipartFile> getFiles(String var1);
 ```
 获取所有上传的文件，返回一个 List&lt;MultipartFile&gt; 类型的集合。
+
 
 ```java
 Map<String, MultipartFile> getFileMap();
